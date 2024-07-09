@@ -17,13 +17,16 @@ percentage_changes AS (
         price_one_piece,
         prev_avg_price_data,
         price_one_piece - prev_avg_price_data as price_one_piece_minus_prev_avg_price_data,
-        ROUND(((price_one_piece - prev_avg_price_data) / prev_avg_price_data) * 100, 2) AS percentage_change_per_month
+        ROUND(((price_one_piece - prev_avg_price_data) / prev_avg_price_data) * 100, 2) AS percentage_change_per_year
     FROM calculated_changes
 )
 SELECT 
     category_code,
     price_name,
-    payroll_year,   
-    ROUND(AVG(percentage_change_per_month), 2) AS avg_percentage_change_per_year    
+    payroll_year,
+    price_one_piece,
+    prev_avg_price_data,
+  	price_one_piece_minus_prev_avg_price_data,
+    percentage_change_per_year      
 FROM percentage_changes
 GROUP BY category_code,payroll_year;
