@@ -18,11 +18,11 @@ Seznam souboru:
 - `otazka_1.sql` sql skript,který vypocita rozdil platu v prubehu let pro všechny odvětví.
 - `otazka_1_v2.sql` sql skript který vypočita rozdil platu v pruběhu let a zobrazi jen ty odvětví ktere maji v zaporné přirustek.
 -  `otazka_2.sql` sql skript,který vypočita kolik chleba a mléka lze koupit za rok 2006 a 2018
-- `otazka_3.sql` sql script, který vypočitáva procentualní přirustek ceny pro všechny potraviny během let.
+- `otazka_3.sql` sql skript, který vypočitáva procentualní přirustek ceny pro všechny potraviny během let.
 - `otazka_3_v2.sql` sql skript, ktery procentualní přirustek během let od nejmenšího k největšímu.
 - `otazka_4.sql` sql skript, ktery zobrazí roky kde je procentualní změna potravin a procentualní změna platu větší než 10%.
-- `otazka_5_sql` pro práci s CSV soubory.
-- `otazka_5_v2.sql` pro práci s CSV soubory.
+- `otazka_5_sql` sql skript, ktery zobrazuje vazbu mezi HDP ČR a platu.
+- `otazka_5_v2.sql` sql skript, ktery zobrazuje vazbu mezi HDP ČR a cenu potravin.
 
 
 ## Odpovědí na otazky 
