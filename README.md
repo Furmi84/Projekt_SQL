@@ -12,14 +12,14 @@ Výzkumné otázky:
 - Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?
 - Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
 
-## Popis
+## Seznam souboru a popis funkce
 Skript provádí následující úkoly:
 - Načítání specifikované webové stránky.
 - Extrahování dat z tabulek na stránce.
 - Filtrace a zpracování dat podle potřeby.
 - Ukládání výsledků do souboru CSV.
 
-## Technologie
+## Odpovědí na otazky 
 Projekt je napsán v Pythonu a využívá knihovny:
 - `BeautifulSoup4` pro parsování HTML.
 - `requests` pro získání obsahu webu.
