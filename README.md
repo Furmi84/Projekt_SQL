@@ -17,7 +17,7 @@ Seznam souboru:
 - `vytvoreni_tabulky.sql` vytvořeni tabulky t_martin_furmanek_project_SQL_primary_final.
 - `otazka_1.sql` sql skript,který vypocita rozdil platu v prubehu let pro všechny odvětví.
 - `otazka_1_v2.sql` sql skript který vypočita rozdil platu v pruběhu let a zobrazi jen ty odvětví ktere maji v zaporné přirustek.
--  `otazka_2.sql` sql skript,který vypočita kolik chleba a mléka lze koupit za rok 2006 a 2018
+- `otazka_2.sql` sql skript,který vypočita kolik chleba a mléka lze koupit za rok 2006 a 2018
 - `otazka_3.sql` sql skript, který vypočitáva procentualní přirustek ceny pro všechny potraviny během let.
 - `otazka_3_v2.sql` sql skript, ktery procentualní přirustek během let od nejmenšího k největšímu.
 - `otazka_4.sql` sql skript, ktery zobrazí roky kde je procentualní změna potravin a procentualní změna platu větší než 10%.
@@ -25,13 +25,14 @@ Seznam souboru:
 - `otazka_5_v2.sql` sql skript, ktery zobrazuje vazbu mezi HDP ČR a cenu potravin.
 
 
-## Odpovědí na otazky 
-Projekt je napsán v Pythonu a využívá knihovny:
-- `BeautifulSoup4` pro parsování HTML.
-- `requests` pro získání obsahu webu.
-- `csv` pro práci s CSV soubory.
-- `os` a `sys` pro manipulaci se soubory a systémové volání.
+## Odpovědí na otázky
+- `Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?` Průběhu nerostou mzdy ve všech odvětvích, v některych letech klesaji.
+- `Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?` Vysledek zobrazuje skript `otazka_2.sql`
+- `Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?` pro práci s CSV soubory.
+- `Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?` Vysledek zobrazuje skript `otazka_4.sql`
+- `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?` ro manipulaci se soubory a systémové volání.
 
+  
 ## Instalace
 Pro spuštění skriptu je potřeba mít nainstalovaný Python a následující knihovny:
 ```
