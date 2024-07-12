@@ -29,9 +29,15 @@ Seznam souboru:
 ## Odpovědí na otázky
 - `Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?` Průběhu nerostou mzdy ve všech odvětvích, v některych letech klesaji.
 - `Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?` Vysledek zobrazuje skript `otazka_2.sql`
-- `Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?` pro práci s CSV soubory.
+- `Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?` Nejnížší meziroční nárust byl v roce 2009, kde nejvíce zlevnilo pečivo bíle pšeničné a jablko konzumní, pote ještě zlevníla pšeničná mouka hladká.
 - `Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?` Vysledek zobrazuje skript `otazka_4.sql`
 - `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?` Vysledek lze videt na grafech.
   ![image](https://github.com/user-attachments/assets/f065ea8e-8a51-4960-9762-83c00cf4c558)
+
+  Pro ukazku jsem zvolil jen dvě položky
+  ![image](https://github.com/user-attachments/assets/95a09ddb-fd89-4b2c-9dbc-6b93bc6c904d)
+
+  U platu lze při rustu HDP vidět u růst platů, u dvou položek potravín toto neplati, asi vzhledem k tomu že tyto suroviny se do ČR dovažeji a cena je určena jinak.
+
 
 
