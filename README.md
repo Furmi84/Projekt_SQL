@@ -32,3 +32,5 @@ Seznam souboru:
 - `Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?` pro práci s CSV soubory.
 - `Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?` Vysledek zobrazuje skript `otazka_4.sql`
 - `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?` ro manipulaci se soubory a systémové volání.
+  ![image](https://github.com/user-attachments/assets/b257e1cc-45fd-49c1-b481-df716e3663df)
+
