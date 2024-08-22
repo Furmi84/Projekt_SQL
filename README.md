@@ -27,7 +27,30 @@ Seznam souboru:
 
 
 ## Odpovědí na otázky
-- `Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?` Průběhu nerostou mzdy ve všech odvětvích, v některych letech klesaji.
+- `Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?` Průběhu let, mzdy nerostou ve všech odvětvích rovnoměrně. Zde jsou uvedeno 5 odvětví a roky, kde byl pokles mezd největší:
+  
+      1. **Peněžnictví a pojišťovnictví**:
+       - 2013: -4473,00 Kč
+
+      2. **Výroba a rozvod elektřiny, plynu, tepla a klimatizovaného vzduchu**:
+       - 2013: -1807,50 Kč
+       - 2015: -436,75 Kč
+
+      3. **Těžba a dobývání**:
+       - 2009: -1275,50 Kč
+       - 2013: -801,25 Kč
+       - 2014: -315,50 Kč
+       - 2016: -191,50 Kč
+
+      4. **Profesní, vědecké a technické činnosti**:
+       - 2010: -189,25 Kč
+       - 2013: -867,00 Kč
+
+      5. **Veřejná správa a obrana; povinné sociální zabezpečení**:
+       - 2010: -84,75 Kč
+       - 2011: -583,25 Kč
+
+  
 - `Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?` Vysledek zobrazuje skript `otazka_2.sql`
 - `Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?` Nejnížší meziroční nárust byl v roce 2009, kde nejvíce zlevnilo pečivo bíle pšeničné a jablko konzumní, pote ještě zlevníla pšeničná mouka hladká.
 - `Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?` Vysledek zobrazuje skript `otazka_4.sql`
