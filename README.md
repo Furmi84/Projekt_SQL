@@ -56,7 +56,7 @@ Seznam souboru:
 
   ![image](https://github.com/user-attachments/assets/0e4e07ce-c65c-4cec-9ee4-efef27ae4c58)
 
-      Zde je graf zobrazující růst mezd v jednotlivých odvětvích napříč všemi roky. Každý sloupec představuje jeden rok, a různé barvy ve sloupci reprezentují příspěvky jednotlivých odvětví k celkovému růstu mezd v daném roce.
+  Zde je graf zobrazující růst mezd v jednotlivých odvětvích napříč všemi roky. Každý sloupec představuje jeden rok, a různé barvy ve sloupci reprezentují příspěvky jednotlivých odvětví k celkovému růstu mezd v daném roce.
 
   
 - `Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?` Pokud porovnáme data, zjistíme, že si můžeme koupit více mléka než chleba. Důvodem je nárůst cen, kdy mezi lety 2006 a 2018 vzrostla cena mléka o 5,11 Kč na litr a cena chleba o 7,37 Kč na kilogram. Vyšší cena chleba mohla být způsobena několika faktory, například cenou energií, surovin atd.
