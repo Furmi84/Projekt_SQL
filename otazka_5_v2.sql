@@ -1,4 +1,4 @@
--- otazka č.5
+-- otazka č.5 v 2
 -- Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?
 -- script zavislost ceny potravin a HDP
 
@@ -7,7 +7,7 @@ SELECT
     -- gdp_per_year.GDP,
     -- gdp_per_year.lag_gdp,
     gdp_per_year.delta_gdp_per_year_raw,
-    FORMAT(gdp_per_year.delta_gdp_per_year_raw / 1000000000, 2) as delta_gdp_per_year_in_miliards,
+    FORMAT(gdp_per_year.delta_gdp_per_year_raw / 1000000000, 2) AS delta_gdp_per_year_in_miliards,
     calculation_price_food.category_code,
     calculation_price_food.price_name,
     -- calculation_price_food.price_name,
@@ -40,3 +40,4 @@ JOIN
     ) AS calculation_price_food
     ON t_martin_furmanek_project_SQL_primary_final.payroll_year = calculation_price_food .payroll_year
   group by calculation_price_food.category_code,gdp_per_year.year;
+
