@@ -49,6 +49,13 @@ Seznam souboru:
       5. **Veřejná správa a obrana; povinné sociální zabezpečení**:
        - 2010: -84,75 Kč
        - 2011: -583,25 Kč
+      
+    Odvětví s nejmenším poklesem bylo:  
+
+      Opravy a údržba motorových vozidel:
+       - 2009: -20,25 Kč
+
+
 
   
 - `Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?` Vysledek zobrazuje skript `otazka_2.sql`
