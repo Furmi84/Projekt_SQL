@@ -1,6 +1,7 @@
-/*Vytvoření tabulky*/
+-- Vytvoření tabulky t_martin_furmanek_project_SQL_primary_final
+-- Tabulka obsahuje všechy data, se kterýma poté pracují skrypty.
 
-create or replace table t_martin_furmanek_project_SQL_primary_final(
+CREATE OR REPLACE TABLE t_martin_furmanek_project_SQL_primary_final(
 	WITH payroll_data AS (
     SELECT	
         cp.industry_branch_code,
@@ -14,7 +15,7 @@ create or replace table t_martin_furmanek_project_SQL_primary_final(
 	price_data AS (
     	SELECT
         	cp.category_code,
-        	cp.value as price_one_piece,
+        	cp.value AS price_one_piece,
         	YEAR(cp.date_to) AS period_year,
         	cpc.name AS price_name     
     	FROM czechia_price cp
