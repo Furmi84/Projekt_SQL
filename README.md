@@ -110,13 +110,17 @@ Seznam souboru:
 
 
   
-- `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?` Vysledek lze videt na grafech.
-  ![image](https://github.com/user-attachments/assets/f065ea8e-8a51-4960-9762-83c00cf4c558)
+- `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?`
 
-  Pro ukazku jsem zvolil jen dvě položky
-  ![image](https://github.com/user-attachments/assets/95a09ddb-fd89-4b2c-9dbc-6b93bc6c904d)
+Graf, ktery zobrazuje růst HDP a růst mezd.
+![image](https://github.com/user-attachments/assets/96bd38d3-0557-4056-8cd3-88224b6469f9)
 
-  U platu lze při rustu HDP vidět u růst platů, u dvou položek potravín toto neplati, asi vzhledem k tomu že tyto suroviny se do ČR dovažeji a cena je určena jinak.
+Z grafu vyplývá, že existuje závislost mezi změnou HDP a změnou růstu mezd, přičemž silnější závislost je mezi růstem HDP a růstem mezd až v následujícím roce.
+
+Graf, ktery zobrazuje růst potravin a růst HDP.
+![image](https://github.com/user-attachments/assets/4e9f34c7-d8ce-4a80-b2bd-5be5c0c3d751)
+
+Z toho vyplývá, že na základě těchto dat nelze s jistotou říci, že by růst HDP měl výrazný vliv na růst cen potravin. Ceny potravin jsou ovlivněny dalšími faktory, které nejsou závislé na HDP, jako například náklady na suroviny, náklady na energie, dopravní náklady a další.
 
 
 
