@@ -84,8 +84,7 @@ Seznam souboru:
          - **Hovězí maso zadní bez kosti (2011)**: 8,8% nárůst
 
   
-- `Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?` 
-Existuje několik let, ve kterých byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %). Zde jsou některé příklady:
+- `Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?` Existuje několik let, ve kterých byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %). Zde jsou některé příklady:
 
       1. **2007:**
        - **Pšeničná mouka hladká:** 
@@ -105,7 +104,7 @@ Existuje několik let, ve kterých byl meziroční nárůst cen potravin výrazn
          - Nárůst mezd: 2,27 %
          - Rozdíl: 25,95 %
 
-Tyto výsledky ukazují, že v některých letech ceny potravin rostly výrazně rychleji než mzdy, což může mít vliv na kupní sílu spotřebitelů.
+      Tyto výsledky ukazují, že v některých letech ceny potravin rostly výrazně rychleji než mzdy, což může mít vliv na kupní sílu spotřebitelů.
 
   
 - `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?` Vysledek lze videt na grafech.
