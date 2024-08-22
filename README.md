@@ -109,6 +109,8 @@ Seznam souboru:
   Tyto výsledky ukazují, že v některých letech ceny potravin rostly výrazně rychleji než mzdy, což může mít vliv na kupní sílu spotřebitelů.
 
 
+
+
   
 - `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?`
 
