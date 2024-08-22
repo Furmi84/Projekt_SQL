@@ -1,5 +1,6 @@
 -- otazka č.3
 -- Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
+
 WITH calculated_changes AS (
     SELECT
         category_code,
@@ -30,3 +31,4 @@ SELECT
     percentage_change_per_year      
 FROM percentage_changes
 GROUP BY category_code,payroll_year;
+
