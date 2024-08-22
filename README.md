@@ -58,8 +58,10 @@ Seznam souboru:
 
   Zde je graf zobrazující růst mezd v jednotlivých odvětvích napříč všemi roky. Každý sloupec představuje jeden rok, a různé barvy ve sloupci reprezentují příspěvky jednotlivých odvětví k celkovému růstu mezd v daném roce.
 
+
   
 - `Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?` Pokud porovnáme data, zjistíme, že si můžeme koupit více mléka než chleba. Důvodem je nárůst cen, kdy mezi lety 2006 a 2018 vzrostla cena mléka o 5,11 Kč na litr a cena chleba o 7,37 Kč na kilogram. Vyšší cena chleba mohla být způsobena několika faktory, například cenou energií, surovin atd.
+
 
   
 - `Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?`
@@ -105,6 +107,7 @@ Seznam souboru:
          - Rozdíl: 25,95 %
 
   Tyto výsledky ukazují, že v některých letech ceny potravin rostly výrazně rychleji než mzdy, což může mít vliv na kupní sílu spotřebitelů.
+
 
   
 - `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?` Vysledek lze videt na grafech.
