@@ -59,11 +59,54 @@ Seznam souboru:
       Zde je graf zobrazující růst mezd v jednotlivých odvětvích napříč všemi roky. Každý sloupec představuje jeden rok, a různé barvy ve sloupci reprezentují příspěvky jednotlivých odvětví k celkovému růstu mezd v daném roce.
 
   
-- `Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?` Vysledek zobrazuje skript `otazka_2.sql`
+- `Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?` Pokud porovnáme data, zjistíme, že si můžeme koupit více mléka než chleba. Důvodem je nárůst cen, kdy mezi lety 2006 a 2018 vzrostla cena mléka o 5,11 Kč na litr a cena chleba o 7,37 Kč na kilogram. Vyšší cena chleba mohla být způsobena několika faktory, například cenou energií, surovin atd.
+
   
-- `Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?` Nejnížší meziroční nárust byl v roce 2009, kde nejvíce zlevnilo pečivo bíle pšeničné a jablko konzumní, pote ještě zlevníla pšeničná mouka hladká.
+- `Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?`
+  Kategorie potravin, která zdražuje nejpomaleji, je Cukr krystalový, u kterého je průměrný procentuální meziroční pokles ceny -0,21 %. To znamená, že cena tohoto produktu nejen neroste, ale v průměru dokonce mírně klesá.
+
+  Zde jsou uvedeny ještě další informace: 
+
+      1. **Tři potraviny s nejvyšším procentuálním růstem cen a rok:**
+           - **Papriky (2007)**: 78,67% nárůst
+           - **Rýže loupaná dlouhozrnná (2008)**: 67,28% nárůst
+           - **Jablka konzumní (2008)**: 65,68% nárůst
+
+      2. **Tři potraviny s největším procentuálním poklesem cen a rok:**
+           - **Jablka konzumní (2009)**: -42,33% pokles
+           - **Pečivo pšeničné bílé (2009)**: -35,67% pokles
+           - **Pšeničná mouka hladká (2009)**: -32,29% pokles
+
+      3. **Potravina s nejstabilnějším meziročním růstem v procentech:**
+         - **Hovězí maso zadní bez kosti** s průměrnou standardní odchylkou 3,89%
+
+      4. **Největší meziroční procentuální růst u této potraviny a rok:**
+         - **Hovězí maso zadní bez kosti (2011)**: 8,8% nárůst
+
   
-- `Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?` Vysledek zobrazuje skript `otazka_4.sql`
+- `Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?` 
+Existuje několik let, ve kterých byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %). Zde jsou některé příklady:
+
+      1. **2007:**
+       - **Pšeničná mouka hladká:** 
+         - Nárůst cen potravin: 41,81 %
+         - Nárůst mezd: 7,79 %
+         - Rozdíl: 34,02 %
+
+      2. **2008:**
+       - **Rýže loupaná dlouhozrnná:** 
+         - Nárůst cen potravin: 67,28 %
+         - Nárůst mezd: 9,95 %
+         - Rozdíl: 57,33 %
+
+      3. **2015:**
+       - **Pomeranče:** 
+         - Nárůst cen potravin: 28,22 %
+         - Nárůst mezd: 2,27 %
+         - Rozdíl: 25,95 %
+
+Tyto výsledky ukazují, že v některých letech ceny potravin rostly výrazně rychleji než mzdy, což může mít vliv na kupní sílu spotřebitelů.
+
   
 - `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?` Vysledek lze videt na grafech.
   ![image](https://github.com/user-attachments/assets/f065ea8e-8a51-4960-9762-83c00cf4c558)
