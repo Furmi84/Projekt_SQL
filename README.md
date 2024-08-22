@@ -50,17 +50,21 @@ Seznam souboru:
        - 2010: -84,75 Kč
        - 2011: -583,25 Kč
       
-    Odvětví s nejmenším poklesem bylo:  
+      Nejméně stabilní růst mezd bylo zaznamenáno v odvětví Peněžnictví a pojišťovnictví, kde standardní odchylka změn průměrných mezd byla nejvyšší, konkrétně 2496,81 Kč. To naznačuje, že toto odvětví mělo nejvíce kolísající růst mezd v porovnání s ostatními odvětvími.
+  
+      Nejstabilnější růst mezd bylo zaznamenáno v odvětví Ostatní činnosti, kde standardní odchylka změn průměrných mezd byla nejnižší, konkrétně 389,55 Kč. To znamená, že toto odvětví mělo nejvíce konzistentní růst mezd v porovnání s ostatními odvětvími.
 
-      Opravy a údržba motorových vozidel:
-       - 2009: -20,25 Kč
+  ![image](https://github.com/user-attachments/assets/0e4e07ce-c65c-4cec-9ee4-efef27ae4c58)
 
-
+      Zde je graf zobrazující růst mezd v jednotlivých odvětvích napříč všemi roky. Každý sloupec představuje jeden rok, a různé barvy ve sloupci reprezentují příspěvky jednotlivých odvětví k celkovému růstu mezd v daném roce.
 
   
 - `Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?` Vysledek zobrazuje skript `otazka_2.sql`
+  
 - `Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?` Nejnížší meziroční nárust byl v roce 2009, kde nejvíce zlevnilo pečivo bíle pšeničné a jablko konzumní, pote ještě zlevníla pšeničná mouka hladká.
+  
 - `Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?` Vysledek zobrazuje skript `otazka_4.sql`
+  
 - `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?` Vysledek lze videt na grafech.
   ![image](https://github.com/user-attachments/assets/f065ea8e-8a51-4960-9762-83c00cf4c558)
 
