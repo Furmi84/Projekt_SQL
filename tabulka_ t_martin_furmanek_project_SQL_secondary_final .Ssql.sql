@@ -1,3 +1,5 @@
+-- Vytvoření tabulky t_martin_furmanek_project_SQL_secondary_final
+
 CREATE OR REPLACE table t_martin_furmanek_project_SQL_secondary_final AS
 WITH europe_summary AS (
     SELECT 
@@ -22,5 +24,5 @@ SELECT
  	*
 FROM 
     europe_summary, europe_detail;
-
+   
 
