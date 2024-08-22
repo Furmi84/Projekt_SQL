@@ -6,8 +6,8 @@ SELECT
     gdp_per_year.year,
     -- gdp_per_year.GDP,
     -- gdp_per_year.lag_gdp,
-    gdp_per_year.delta_gdp_per_year_raw,
-    FORMAT(gdp_per_year.delta_gdp_per_year_raw / 1000000000, 2) as delta_gdp_per_year_in_miliards,
+    -- gdp_per_year.delta_gdp_per_year_raw,
+    FORMAT(gdp_per_year.delta_gdp_per_year_raw / 1000000000, 2) AS delta_gdp_per_year_in_miliards,
     -- t_martin_furmanek_project_SQL_primary_final.payroll_year,
     -- t_martin_furmanek_project_SQL_primary_final.payroll_value,
     -- calculation.value_year_before,
@@ -38,4 +38,4 @@ JOIN
     group by payroll_year 
     ) AS calculation_payroll 
     ON t_martin_furmanek_project_SQL_primary_final.payroll_year = calculation_payroll .payroll_year
-group by gdp_per_year.year;
+GROUP BY gdp_per_year.year;
