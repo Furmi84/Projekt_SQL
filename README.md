@@ -104,7 +104,7 @@ Seznam souboru:
          - Nárůst mezd: 2,27 %
          - Rozdíl: 25,95 %
 
-      Tyto výsledky ukazují, že v některých letech ceny potravin rostly výrazně rychleji než mzdy, což může mít vliv na kupní sílu spotřebitelů.
+  Tyto výsledky ukazují, že v některých letech ceny potravin rostly výrazně rychleji než mzdy, což může mít vliv na kupní sílu spotřebitelů.
 
   
 - `Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo násdujícím roce výraznějším růstem?` Vysledek lze videt na grafech.
